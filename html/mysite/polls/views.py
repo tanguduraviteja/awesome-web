@@ -5,4 +5,6 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse("hi raviteja")
+def fetchDetails(request, id):
+    return HttpResponse("Student Id : %s" % id)
