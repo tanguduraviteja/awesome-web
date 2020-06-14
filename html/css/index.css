@@ -13,13 +13,6 @@ body {
     border: 0;
     height:150px;
   }
-  
-  #logo-img {
-    background:url(../ravi.png) no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 10px;
-  }
   .navbar-brand {
     padding-top: 25px;
   }
@@ -41,4 +34,78 @@ body {
   
   .navbar-brand  p span {
     vertical-align: middle;
+  }
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #phone div { /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+  /* tiles*/
+  #tiles{
+    padding:10px 0px 10px 10px;
+  }
+  .col-lg-4 {
+    width: 33px;
+  }
+  #menutile {
+    background: url('../menu-tile.jpg') no-repeat;
+    background-position: center;
+  }
+  #specialtile {
+    background: url('../specials-tile.jpg') no-repeat;
+    background-position: center;
+  }
+  #menutile, #specialtile, #maptile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    
+  }
+  #menutile:hover,#specialtile:hover,#maptile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  #menutile span,#specialtile span,#maptile span{
+    position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
   }
